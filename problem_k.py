@@ -37,4 +37,3 @@ def read_buf(num):
 
 
 read_buf(4)
-

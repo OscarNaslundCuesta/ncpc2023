@@ -34,13 +34,3 @@ for rest in rest_list:
     i2 += 1
 
 print(max(scout_list))
-
-
-
-#print(things)
-#print(scouts)
-#print(num_list2)
-
-# num_list2 = num_list2[:max_num_things]
-
-# big_things = num_list2[scouts:]

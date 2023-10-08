@@ -66,8 +66,3 @@ elif w3v1 >= w1v3 and w3v2 >= w2v3 and w3v1 != 0 and w3v2 != 0:
     print(3)
 else:
     print("No dice")
-
-
-#s1 = "1 2 3 4 5 6"
-#s2 = "1 2 3 4 5 6"
-#s3 = "1 2 3 4 5 6"

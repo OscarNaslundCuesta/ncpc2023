@@ -20,12 +20,13 @@ for s in strings:
     last_digit = 0
     s = s[::-1]
     rm = False
-
+    biggest = 0
     for i in range(len(s)):
-        if last_digit < rome[s[i]]:
+        if biggest < rome[s[i]]:
             out += rome[s[i]]
             rm = False
-        elif last_digit > rome[s[i]]:
+            biggest = rome[s[i]]
+        elif biggest > rome[s[i]]:
             out -= rome[s[i]]
             rm = True
         else:
@@ -36,3 +37,4 @@ for s in strings:
         last_digit = rome[s[i]]
 
     print(out)
+    
